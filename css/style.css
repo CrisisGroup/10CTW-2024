@@ -6,68 +6,72 @@ html,
   font-family: "Franklin Gothic URW", sans-serif;
 }
 
-#video-container {
-  display: block;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  z-index: 1 !important;
+.video-main-container {
+  position: relative;
+  padding-bottom: 1px;
 }
 
-/* Position the video absolutely within the video container */
-#video-container video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 2 !important; /* Ensure the video is above the background but below the cards */
+h2 {
+  font-style: italic;
 }
 
-/* Container for the card elements */
+.card-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 1;
+  position: relative;
+  width: 600px;
+  max-width: calc(100% - 20px);
+  margin: 0 auto 90vh;
+}
+
+.card {
+  background-color: rgba(139, 0, 0, 0.6);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 18px 24px;
+  color: #fff;
+  max-width: 600px;
+  border-radius: 4px;
+}
+
+/* 
 .card-content {
   position: relative;
-  z-index: 3 !important; /* Higher z-index so content appears above the video */
+  z-index: 3 !important; 
 }
-
-/* Individual card styles */
 .card {
   background-color: rgba(139, 0, 0, 0.6);
   color: #fff;
   border-radius: 2px;
   padding: 20px;
-  margin: 5rem auto;
+  margin: 0 auto 90vh;
   width: 50%;
   max-width: 600px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  position: relative; /* Add this to ensure stacking context for z-index */
+  z-index: 4;
+  position: relative; 
 }
 
 .card::before {
   content: '';
   position: absolute;
-  top: -20px; /* Adjust this value to control the offset from the top */
-  left: 0;
+  top: -20px; 
   right: 0;
-  height: 4px; /* Height of the border */
-  background-color: rgb(231, 193, 186, 0.8); /* Color of the border */
+  height: 4px; 
+  background-color: rgb(231, 193, 186, 0.8); 
 }
 
 .content-title {
-  font-size: 1.5rem; /* Large font size for the title */
-  margin-bottom: 10px; /* Space between title and text */
+  font-size: 1.5rem; 
+  margin-bottom: 10px; 
   font-style: italic;
 }
 
 .content-text {
-  font-size: 1rem; /* Standard font size for the text */
-  line-height: 1.6; /* Adjust line height for readability */
-}
+  font-size: 1rem;
+  line-height: 1.6;
+} */
 
 .header-container {
   background-color: black;
