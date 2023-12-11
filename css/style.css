@@ -3,7 +3,7 @@ html,
 * {
   margin: 0;
   padding: 0;
-  font-family: "franklin-gothic-urw", sans-serif;;
+  font-family: "franklin-gothic-urw", sans-serif;
 }
 
 .video-main-container {
@@ -15,6 +15,24 @@ h1 {
   font-family: "pt-serif", serif;
   font-size: 7em;
   letter-spacing: .05em;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+      font-size: 4em;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+      font-size: 3em;
+  }
+}
+
+@media (max-width: 425px) {
+  h1 {
+      font-size: 2em;
+  }
 }
 
 h2 {
@@ -69,6 +87,7 @@ h2 {
   color: white;
   text-align: center;
   padding: 20px;
+  overflow: hidden;
 }
 
 .grid {
