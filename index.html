@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,74 +6,65 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>ScrollyVideo HTML Demo</title>
+  <link href="css/style.css" rel="stylesheet" />
 
-  <style>
-    body,
-    html,
-    * {
-      margin: 0;
-      padding: 0;
-    }
-
-    .card {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 50%;
-      background-color: #fff;
-      padding: 20px;
-      z-index: 1;
-    }
-
-    .card-2 {
-      position: absolute;
-      top: 150%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 50%;
-      background-color: #fff;
-      padding: 20px;
-      z-index: 1;
-    }
-  </style>
 </head>
 
 <body>
-  <div>
-    <h1>International Crisis Group</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum culpa quae minus minima animi praesentium. Fuga
-      eaque animi quis iusto in! Ut itaque nobis rerum cumque doloribus ad, voluptatem expedita!</p>
+  <div class="header-container">
+    <div class="grid">
+      <!-- Each .grid-item represents an image placeholder -->
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+    </div>
+    <h1>Ten Conflicts to Watch</h1>
+    <button class="cta-button">IN 2024</button>
   </div>
 
   <div style="height: 300vh;">
     <div id="video-container"></div>
   </div>
 
+  <div class="card-content">
   <div class="card">
+    <h2 class="content-title">Armenia-Azerbaijan</h2>
+    <p class="content-text">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam error totam neque voluptates tenetur suscipit vel
     praesentium accusamus molestiae dolorem. Illum ipsa minus optio facere enim similique hic necessitatibus
     neque!
+  </p>
   </div>
-  <div class="card-2">
+  <div class="card">
+    <h2 class="content-title">Armenia-Azerbaijan</h2>
+    <p class="content-text">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat enim nihil quas illo quod incidunt, ex aut deleniti tenetur! Error aut, doloremque inventore dicta velit adipisci nobis eveniet ducimus reprehenderit!
   </div>
   <div class="card">
+    <h2 class="content-title">Israel/Palestine</h2>
+    <p class="content-text">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam error totam neque voluptates tenetur suscipit vel
     praesentium accusamus molestiae dolorem. Illum ipsa minus optio facere enim similique hic necessitatibus
     neque!
   </div>
-  <div class="card">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam error totam neque voluptates tenetur suscipit vel
-    praesentium accusamus molestiae dolorem. Illum ipsa minus optio facere enim similique hic necessitatibus
-    neque!
-  </div>
+</div>
+
+<div style="margin-top:10px;">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente culpa rem modi magni, dolore iste. Impedit recusandae reiciendis, porro nostrum sint, a illo architecto maxime pariatur iste earum harum ea!
+</div>
 
   <script src="https://cdn.jsdelivr.net/npm/scrolly-video@latest/dist/scrolly-video.js"></script>
   <script type="text/javascript">
     new ScrollyVideo({
       scrollyVideoContainer: "video-container",
-      src: "map.mp4"
+      src: "cali-fs.mp4"
     });
   </script>
 
