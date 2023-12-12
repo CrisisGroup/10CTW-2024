@@ -13,8 +13,9 @@ html,
 
 h1 {
   font-family: "pt-serif", serif;
-  font-size: 7em;
+  font-size: 6em;
   letter-spacing: .05em;
+  margin: 0.5em 0 0.25em 0;
 }
 
 @media (max-width: 1024px) {
@@ -89,7 +90,20 @@ h2 {
 
 .footer {
   margin: 5rem auto;
-  max-width: 600px;
+  max-width: 700px;
+}
+
+.footer h2 {
+  font-size: 2em;
+  font-style: italic;
+  font-family: "PT Serif", serif;
+  color: #a4353b;
+  margin: 0 0 .5em;
+}
+
+.footer-para {
+  line-height: 1.6;
+  font-size: 1.5em;
 }
 
 .header-container {
@@ -103,22 +117,46 @@ h2 {
 .grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  /* Adjust the number of columns as needed */
   grid-gap: 10px;
-  /* Adjust the gap size as needed */
   padding: 20px;
+  /* Removed the margin from the grid items to ensure padding is consistent */
 }
 
 .grid-item {
   background-color: maroon;
-  /* Placeholder for images */
   padding-bottom: 100%;
-  /* This gives a square aspect ratio */
-  border: 1px dashed white;
+  border: 2px dashed white;
+  position: relative; /* Added for absolute positioning of the content */
+}
+
+.grid-item-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* Add styling for your content here */
+}
+
+#grid-one {
+  background-image: url('../images/AI_Image.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#image-one {
+  opacity: 0;
+  animation: fadeIn 2s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: .6;
+  }
 }
 
 .cta-button {
-  background-color: maroon;
+  background-color: #b25954;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -127,7 +165,7 @@ h2 {
   cursor: pointer;
   transition: background-color 0.3s ease;
   border-radius: 15px 0 15px 0;
-  font-size: 24px;
+  font-size: 3em;
 }
 
 .cta-button:hover {
