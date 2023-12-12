@@ -13,7 +13,6 @@
 <body>
   <div class="header-container">
     <div class="grid">
-      <!-- Each .grid-item represents an image placeholder -->
       <div class="grid-item"></div>
       <div class="grid-item"></div>
       <div class="grid-item"></div>
@@ -34,14 +33,14 @@
     <div id="video-container" style="height:300vh;"></div>
     <div class="card-wrap">
 
-      <div class="card">
+      <div class="card" id="white-card">
         <h2>Israel/Palestine</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, voluptatum corrupti. Facilis aperiam fuga sequi
         dicta quaerat porro, commodi possimus tempora blanditiis architecto! Reiciendis rerum, asperiores molestias
         eligendi inventore in.</p>
       </div>
     </div>
-    <div class="card-wrap">
+    <div class="card-wrap" id="red-card">
       <div class="card">
         <h2>Armenia/Azerbaijan</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, voluptatum corrupti. Facilis aperiam fuga sequi
@@ -75,7 +74,7 @@
     new ScrollyVideo({
       scrollyVideoContainer: "video-container",
       src: "map.mp4",
-      transitionSpeed: 1,
+      transitionSpeed: .5,
     });
   </script>
 
