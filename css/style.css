@@ -144,6 +144,19 @@ h2 {
   background-size: contain;
 }
 
+#grid-two {
+  background-image: url('../images/AI_Image.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#grid-three {
+  background-image: url('../images/AI_Image.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* First Grid Image */
 #image-one {
   opacity: 0;
   animation: fadeIn 2s ease forwards;
@@ -154,6 +167,31 @@ h2 {
     opacity: .6;
   }
 }
+
+/* Second Grid Image */
+
+#image-two {
+  opacity: 0;
+  animation: fadeIn 3s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: .6;
+  }
+}
+
+#image-three {
+  opacity: 0;
+  animation: fadeIn 4s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: .6;
+  }
+}
+
 
 .cta-button {
   background-color: #b25954;
