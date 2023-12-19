@@ -59,7 +59,7 @@ h2 {
   left: 0;
   right: 0;
   height: 8px; /* The thickness of the border */
-  background-color: rgba(231, 193, 186, 0.8); 
+  background-color: rgba(248, 215, 188, 0.8); 
 }
 
 .card {
@@ -70,7 +70,7 @@ h2 {
 }
 
 #red-card {
-  background-color: #a4353b;
+  background-color: #ec8f49;
   color: #fff;
   border-radius: 0 0 30px 0;
 }
@@ -97,7 +97,7 @@ h2 {
   font-size: 2em;
   font-style: italic;
   font-family: "PT Serif", serif;
-  color: #a4353b;
+  color: #e87722;
   margin: 0 0 .5em;
 }
 
@@ -107,8 +107,8 @@ h2 {
 }
 
 .header-container {
-  background-color: black;
-  color: white;
+  background-color: #Fae4d3;
+  color: #000;
   text-align: center;
   padding: 20px;
   overflow: hidden;
