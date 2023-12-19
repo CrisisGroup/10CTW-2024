@@ -76,7 +76,7 @@ h2 {
 }
 
 #white-card {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.2);
   color: #fff;
   border-radius: 0 0 30px 0;
 }
@@ -120,6 +120,12 @@ h2 {
   grid-gap: 40px;
   padding: 20px;
   /* Removed the margin from the grid items to ensure padding is consistent */
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-gap: 10px;
+  }
 }
 
 .grid-item {
@@ -209,7 +215,7 @@ h2 {
 
 @keyframes fadeIn {
   to {
-    opacity: .6;
+    opacity: .8;
   }
 }
 
@@ -222,7 +228,7 @@ h2 {
 
 @keyframes fadeIn {
   to {
-    opacity: .6;
+    opacity: .8;
   }
 }
 
@@ -235,7 +241,7 @@ h2 {
 
 @keyframes fadeIn {
   to {
-    opacity: .6;
+    opacity: .8;
   }
 }
 
@@ -248,7 +254,7 @@ h2 {
 
 @keyframes fadeIn {
   to {
-    opacity: .6;
+    opacity: .8;
   }
 }
 
@@ -261,20 +267,72 @@ h2 {
 
 @keyframes fadeIn {
   to {
-    opacity: .6;
+    opacity: .8;
   }
 }
 
 /* Sixth Grid Image */
 
-#image-five {
+#image-six {
   opacity: 0;
   animation: fadeIn 6s ease forwards;
 }
 
 @keyframes fadeIn {
   to {
-    opacity: .6;
+    opacity: .8;
+  }
+}
+
+/* Sixth Grid Image */
+
+#image-seven {
+  opacity: 0;
+  animation: fadeIn 6s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: .8;
+  }
+}
+
+/* Sixth Grid Image */
+
+#image-eight {
+  opacity: 0;
+  animation: fadeIn 6s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: .8;
+  }
+}
+
+/* Sixth Grid Image */
+
+#image-nine {
+  opacity: 0;
+  animation: fadeIn 6s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: .8;
+  }
+}
+
+/* Sixth Grid Image */
+
+#image-ten {
+  opacity: 0;
+  animation: fadeIn 6s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: .8;
   }
 }
 
