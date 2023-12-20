@@ -14,6 +14,7 @@ html,
 h1 {
   font-family: "pt-serif", serif;
   font-size: 6em;
+  color: #fef5ed;
   letter-spacing: .05em;
   margin: 0.5em 0 0.25em 0;
 }
@@ -38,6 +39,25 @@ h1 {
 
 h2 {
   font-family: "pt-serif", serif;
+  font-style: italic;
+}
+
+
+.header-container {
+  background-color: #000;
+  color: #fef5ed;
+  text-align: center;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.header-container p {
+  font-family: 'PT Serif', serif;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 2em;
+  margin: 0 auto;
+  max-width: 900px;
   font-style: italic;
 }
 
@@ -105,24 +125,6 @@ h2 {
 .footer-para {
   line-height: 1.6;
   font-size: 1.5em;
-}
-
-.header-container {
-  background-color: #Fae4d3;
-  color: #000;
-  text-align: center;
-  padding: 20px;
-  overflow: hidden;
-}
-
-.header-container p {
-  font-family: 'PT Serif', serif;
-  text-align: center;
-  line-height: 1.6;
-  font-size: 2em;
-  margin: 0 auto;
-  max-width: 900px;
-  font-style: italic;
 }
 
 .grid {
@@ -292,22 +294,4 @@ h2 {
   opacity: 0;
   animation: fadeIn 6s ease forwards;
   animation-delay: 5.5s; /* Start 0.5 seconds after the ninth */
-}
-
-
-.cta-button {
-  background-color: #b25954;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  border-radius: 15px 0 15px 0;
-  font-size: 3em;
-}
-
-.cta-button:hover {
-  background-color: #a52a2a;
 }
