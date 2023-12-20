@@ -115,6 +115,16 @@ h2 {
   overflow: hidden;
 }
 
+.header-container p {
+  font-family: 'PT Serif', serif;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 2em;
+  margin: 0 auto;
+  max-width: 900px;
+  font-style: italic;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -132,7 +142,7 @@ h2 {
 .grid-item {
   background-color: #ec8f49;
   padding-bottom: 100%;
-  border: 4px solid #d29a9b ;
+  border: 4px solid #fff ;
   position: relative; /* Added for absolute positioning of the content */
 }
 
