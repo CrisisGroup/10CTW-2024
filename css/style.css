@@ -12,11 +12,11 @@ html,
 }
 
 h1 {
-  font-family: "pt-serif", serif;
+  font-family: "franklin-gothic-urw", serif;
   font-size: 6em;
   color: #fef5ed;
-  letter-spacing: .05em;
-  margin: 0.5em 0 0.25em 0;
+  letter-spacing: .01em;
+  margin: 1em 0 0.25em 0;
 }
 
 @media (max-width: 1024px) {
@@ -33,7 +33,7 @@ h1 {
 
 @media (max-width: 425px) {
   h1 {
-      font-size: 2em;
+      font-size: 1.75em;
   }
 }
 
@@ -51,14 +51,28 @@ h2 {
   overflow: hidden;
 }
 
+@media (max-width: 425px) {
+  .header-container {
+    padding: 5px;
+  }
+}
+
 .header-container p {
   font-family: 'PT Serif', serif;
   text-align: center;
   line-height: 1.6;
   font-size: 2em;
-  margin: 0 auto;
-  max-width: 900px;
+  margin: 0 auto 2em auto;
+  width: 60%;
   font-style: italic;
+}
+
+@media (max-width: 425px) {
+  .header-container p {
+    width: 90%;
+    line-height: 1.2;
+    font-size: 1.5em;
+  }
 }
 
 .card-wrap {
@@ -131,13 +145,13 @@ h2 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 40px;
-  padding: 20px;
-  /* Removed the margin from the grid items to ensure padding is consistent */
+  padding: 40px 40px 0 40px;
 }
 
 @media (max-width: 768px) {
   .grid {
     grid-gap: 10px;
+    padding: 10px 10px 0 10px;
   }
 }
 
