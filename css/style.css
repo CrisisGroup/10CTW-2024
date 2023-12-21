@@ -6,6 +6,15 @@ html,
   font-family: "franklin-gothic-urw", sans-serif;
 }
 
+a.link-white {
+  font-weight: 600; 
+  color: #f7d0b0;
+}
+
+a.link-white:hover {
+  color: #fcede0;
+}
+
 .video-main-container {
   position: relative;
   padding-bottom: 1px;
@@ -34,6 +43,7 @@ h1 {
 @media (max-width: 768px) {
   h1 {
       font-size: 3em;
+      margin-top: .5em;
   }
 }
 
@@ -242,7 +252,7 @@ h2 {
 
 @keyframes fadeIn {
   to {
-    opacity: .8;
+    opacity: 1;
   }
 }
 
@@ -250,68 +260,68 @@ h2 {
 #image-one {
   opacity: 0;
   animation: fadeIn 2s ease forwards;
-  animation-delay: 1s; /* Start after 1 second */
+  animation-delay: 2s; /* Increased by 0.5 seconds */
 }
 
 /* Second Grid Image */
 #image-two {
   opacity: 0;
   animation: fadeIn 3s ease forwards;
-  animation-delay: 1.5s; /* Start 0.5 seconds after the first */
+  animation-delay: 2.5s; /* Increased by 0.5 seconds */
 }
 
 /* Third Grid Image */
 #image-three {
   opacity: 0;
   animation: fadeIn 4.5s ease forwards;
-  animation-delay: 2s; /* Start 0.5 seconds after the second */
+  animation-delay: 2.5s; /* Increased by 0.5 seconds */
 }
 
 /* Fourth Grid Image */
 #image-four {
   opacity: 0;
   animation: fadeIn 5s ease forwards;
-  animation-delay: 2.5s; /* Start 0.5 seconds after the third */
+  animation-delay: 3s; /* Increased by 0.5 seconds */
 }
 
 /* Fifth Grid Image */
 #image-five {
   opacity: 0;
   animation: fadeIn 5.5s ease forwards;
-  animation-delay: 3s; /* Start 0.5 seconds after the fourth */
+  animation-delay: 3.5s; /* Increased by 0.5 seconds */
 }
 
 /* Sixth Grid Image */
 #image-six {
   opacity: 0;
   animation: fadeIn 6s ease forwards;
-  animation-delay: 3.5s; /* Start 0.5 seconds after the fifth */
+  animation-delay: 4s; /* Increased by 0.5 seconds */
 }
 
 /* Seventh Grid Image */
 #image-seven {
   opacity: 0;
   animation: fadeIn 6s ease forwards;
-  animation-delay: 4s; /* Start 0.5 seconds after the sixth */
+  animation-delay: 4.5s; /* Increased by 0.5 seconds */
 }
 
 /* Eighth Grid Image */
 #image-eight {
   opacity: 0;
   animation: fadeIn 6s ease forwards;
-  animation-delay: 4.5s; /* Start 0.5 seconds after the seventh */
+  animation-delay: 5s; /* Increased by 0.5 seconds */
 }
 
 /* Ninth Grid Image */
 #image-nine {
   opacity: 0;
   animation: fadeIn 6s ease forwards;
-  animation-delay: 5s; /* Start 0.5 seconds after the eighth */
+  animation-delay: 5.5s; /* Increased by 0.5 seconds */
 }
 
 /* Tenth Grid Image */
 #image-ten {
   opacity: 0;
   animation: fadeIn 6s ease forwards;
-  animation-delay: 5.5s; /* Start 0.5 seconds after the ninth */
+  animation-delay: 6s; /* Increased by 0.5 seconds */
 }
