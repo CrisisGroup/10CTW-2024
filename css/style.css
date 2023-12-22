@@ -26,7 +26,7 @@ h1 {
   font-size: 6em;
   color: #fef5ed;
   letter-spacing: .01em;
-  margin: 1em 0 0.25em 0;
+  margin: .75em 0 0.25em 0;
 }
 
 @media (max-width: 1440px) {
@@ -86,7 +86,7 @@ h2 {
   line-height: 1.6;
   font-size: 2em;
   margin: 0 auto 2em auto;
-  width: 60%;
+  width: 80%;
   font-style: italic;
 }
 
