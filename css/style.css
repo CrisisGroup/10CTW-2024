@@ -126,13 +126,13 @@ h2 {
   max-width: 700px;
 }
 
-#red-card {
+.red-card {
   background-color: #ec8f49;
   color: #fff;
   border-radius: 0 0 30px 0;
 }
 
-#white-card {
+.white-card {
   background-color: rgba(255, 255, 255, 0.25);
   color: #fff;
   border-radius: 0 0 30px 0;
